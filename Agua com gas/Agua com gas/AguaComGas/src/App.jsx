@@ -9,10 +9,10 @@ function App() {
   // Retorna a estrutura de roteamento usando o BrowserRouter
   return (
     <Router>
-     
+
       <Routes>
-       
-        <Route path="/" element={<Login />} />        
+
+        <Route path="/" element={<Login />} />
         <Route path="/home" element={<Home />} />
         <Route path="/cadastro" element={<Cadastro />} />
       </Routes>
